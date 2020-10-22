@@ -20,5 +20,5 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.select { |element| element.to_s }
+  array.map { |element| element.to_s }
 end
